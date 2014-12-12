@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div ng-controller="ExampleController">
+        <form novalidate>
+            Kwota:
+            <input type="text" ng-model="media.kwota"><br>
+            Kategorie:
+            <input type="text" ng-model="user.lastName">
+            <br><br>
+        </form>
+    </div>
+
+    <script>
+        function formController($scope) {
+            $scope.kwota = "12";
+            
+        };
+    </script>
+</body>
+</html>
