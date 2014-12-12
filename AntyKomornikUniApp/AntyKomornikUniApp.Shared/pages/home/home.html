@@ -17,7 +17,10 @@
             </h1>
         </header>
         <section aria-label="Main content" role="main">
-            <p>Content goes here.</p>
+            <div ng-controller="raportCtrl">
+                <p>{{greeting}}</p>
+                <a style="background-color: red; width: 100px; height: 100px;" ng-click="redirectRaport()">CCCCCCC</a>
+            </div>
         </section>
     </div>
 </body>
