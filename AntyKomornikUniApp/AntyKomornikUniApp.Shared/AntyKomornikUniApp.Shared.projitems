@@ -7,6 +7,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)js\angular.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\jquery-2.1.1.min.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\navigator.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\underscore-min.js" />
